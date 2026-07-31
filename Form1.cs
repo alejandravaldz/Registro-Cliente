@@ -41,9 +41,5 @@ namespace Registro_Cliente
 
         }
 
-        private void list_Clientes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
