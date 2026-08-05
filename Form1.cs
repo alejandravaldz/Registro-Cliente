@@ -36,7 +36,7 @@ namespace Registro_Cliente
            
             txt_Nombre.Text = "";
             txt_Telefono.Text = "";
-            txt_Correo.Text = "";;
+            txt_Correo.Text = "";
         }
 
     }
