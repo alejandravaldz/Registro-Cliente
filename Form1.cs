@@ -30,7 +30,6 @@ namespace Registro_Cliente
         MessageBox.Show("El correo es obligatorio.");
         return;
          }
-         
             string nuevoElemento = txt_Nombre.Text + " , " + txt_Telefono.Text + " ," + txt_Correo.Text;
             list_Clientes.Items.Add(nuevoElemento);
 
