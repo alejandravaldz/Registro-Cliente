@@ -13,19 +13,19 @@ namespace Registro_Cliente
             string telefono = txt_Telefono.Text.Trim();
             string correo = txt_Correo.Text.Trim();
             
-            if (txt_nombre.text == "")
+            if (nombre == "")
         {
         MessageBox.Show("El nombre es obligatorio.");
         return;
         }
 
-        if (txt_telefono.text == "")
+        if (telefono == "")
         {
         MessageBox.Show("El teléfono es obligatorio.");
         return;
         }
 
-        if (txt_correo.text == "")
+        if (correo == "")
         {
         MessageBox.Show("El correo es obligatorio.");
         return;
@@ -36,7 +36,7 @@ namespace Registro_Cliente
            
             txt_Nombre.Text = "";
             txt_Telefono.Text = "";
-            txt_Correo.Text = "";
+            txt_Correo.Text = "";;
         }
 
     }
